@@ -25,3 +25,6 @@ Make the shell script run every hour by using the crontab utility.
 #
 0 * * * * /scripts/responsestatscount.sh apache.log
 ```
+## Authors
+
+* **Jose Enrique Valencia** - *Initial work* - [PurpleBooth](https://github.com/SQLConjuror)
