@@ -12,8 +12,12 @@ You need to supply the apache log filename as a parameter to the script.
 Make the shell script run every hour by using the crontab utility. 
 
 ```bash
+crontab -e
+```
+
+```bash
 ##################################################################################################
-# Cronbtab
+# Crontab
 ##################################################################################################
 #
 # * * * * * command to be executed
