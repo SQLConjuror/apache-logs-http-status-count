@@ -35,7 +35,7 @@ crontab -e
 
 
 
-## Task 1 Part B
+## Task 1- Part B
 
 As time passes, the log files for your application have piled up, and the machine is running out of storage. Briefly describe how you would resolve this i n a short
 paragraph, taking i nto considerations that:
