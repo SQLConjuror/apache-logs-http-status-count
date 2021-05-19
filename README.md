@@ -40,10 +40,11 @@ crontab -e
 As time passes, the log files for your application have piled up, and the machine is running out of storage. Briefly describe how you would resolve this i n a short
 paragraph, taking i nto considerations that:
 
-a. On rare occasion, logs up to 3 months old are required for troubleshooting /investigations
-b. Audit requirements dictate that logs are to be kept for at least 7 years c. The machine is currently storing 6 months worth of logs, and would run out of storage within the    week. Increasing storage i s not an option within the next 12 months
+a) On rare occasion, logs up to 3 months old are required for troubleshooting /investigations
+
+b) Audit requirements dictate that logs are to be kept for at least 7 years c. The machine is currently storing 6 months worth of logs, and would run out of storage within the    week. Increasing storage i s not an option within the next 12 months
 
 ### Answers:
-a. I would create a bash script that will find logs that are 3 months old and move it to /investigations directory. The configure and schedule the script to run daily in crontab.
+a) I would create a bash script that will find logs that are 3 months old and move it to /investigations directory. The configure and schedule the script to run daily in crontab.
 
-b. I would ship the logs required for audit to nfs server, then later to tape backup or to a cold storage. 
+b) I would ship the logs required for audit to nfs server, then later to tape backup or to a cold storage. 
